@@ -25,29 +25,52 @@
     <form action="example.com" method="post">
 
         <h1> Pizza Order</h1>
+        <div>
+            <label for="first name"> First name</label><br>
+            <input type="text" id="first name" name="first name"><br><br>
+        </div>
 
-        <label for="first name"> First name</label><br>
+        <div>
+            <label for="email"> Email</label><br>
+            <input type="email" id="first name" name="email" required><br><br>
+        </div>
 
-        <input type="text" id="first name" required><br><br>
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+        </div>
 
-        <label for="email"> Email</label><br>
+        <div>
+            <label for="age"> Age</label><br>
+            <input type="number" id="age" name="age"><br><br>
+        </div>
 
-        <input type="email" id="first name" required><br><br>
+        <div>
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+        </div>
 
-        <input type="number" id="first name"><br><br>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="first name" name="date"><br><br>
+        </div>
 
-        <input type="tel" id="first name"><br><br>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" id="first name" name="color"><br><br>
+        </div>
 
-        <input type="date" id="first name"><br><br>
+        <div>
+            
+            <p   >Toppings:</p>
+            <input type="checkbox" name="toppings" id="Onions" value="Onions">
+            <label for="Onions">Onions</label>
+        </div>
 
-        <input type="color" id="first name"><br><br>
-   
-        <input type="checkbox" name="toppings" id="Onions" value="Onions">
-        <label for="Onions">Onions</label><br><br>
-    
 
-        <input type="submit" name="">
-           
+
+        <input type="submit" name="submit">
+
         <button type="submit"> Submit</button>
 
         <button type="reset">Reset</button>
